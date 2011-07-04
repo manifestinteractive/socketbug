@@ -5,7 +5,7 @@
  *
  * Licensed under the LGPL v3 licenses.
  *
- * @version v0.2.0 ( 6/29/2011 )
+ * @version v0.2.1 ( 7/4/2011 )
  *
  * @author <a href="http://www.socketbug.com">Website</a>
  * @author <a href="http://www.vimeo.com/user7532036/videos">Video Tutorials ( HD )</a>

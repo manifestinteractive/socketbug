@@ -5,7 +5,7 @@
  *
  * Licensed under the LGPL v3 licenses.
  *
- * @version v0.2.0 ( 6/29/2011 )
+ * @version v0.2.1 ( 7/4/2011 )
  *
  * @author <a href="http://www.socketbug.com">Website</a>
  * @author <a href="http://www.vimeo.com/user7532036/videos">Video Tutorials ( HD )</a>
@@ -44,7 +44,7 @@ function load_helpers()
 	if(helpers.length != 0)
 	{
 		/* Load Helpers and then load Libraries */
-		require(helpers, function ()
+		require({ baseUrl: sb_base }, helpers, function ()
 		{ 
 			load_libraries(); 
 		});	
@@ -62,7 +62,7 @@ function load_libraries()
 	if(libraries.length != 0)
 	{
 		/* Load Libraries and then load Plugins */
-		require(libraries, function ()
+		require({ baseUrl: sb_base }, libraries, function ()
 		{ 
 			load_plugins(); 
 		});	
@@ -80,7 +80,7 @@ function load_plugins()
 	if(plugins.length != 0)
 	{
 		/* Load Plugins and then load Socket.IO */
-		require(plugins, function ()
+		require({ baseUrl: sb_base }, plugins, function ()
 		{ 
 			load_socketbug(); 
 		});	
@@ -99,6 +99,6 @@ function load_socketbug()
 	require([_sbs.host+':'+_sbs.port+'/socket.io/socket.io.js'], function()
 	{	
 		/* Now that Socket.IO is loaded we can run Socketbug */
-		require(['lib/socketbug_application'], function (){});	
+		require({ baseUrl: sb_base }, ['lib/socketbug_application'], function (){});	
 	});
 };
