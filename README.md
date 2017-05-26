@@ -6,9 +6,9 @@
 
 #Socketbug Introduction Video
 
-###! [Watch our 3 Minute Teaser Video](http://www.vimeo.com/socketbug/teaser)
+### [Watch our 3 Minute Teaser Video](http://www.vimeo.com/socketbug/teaser)
 
-###! [Watch our Full 10 Minute Socketbug Introduction Video](http://www.vimeo.com/socketbug/introduction)
+### [Watch our Full 10 Minute Socketbug Introduction Video](http://www.vimeo.com/socketbug/introduction)
 
 We'll show you the good stuff before you do any work :)
 
