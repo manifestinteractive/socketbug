@@ -4,7 +4,7 @@
 
 # [NOT MAITAINED]
 
-#Socketbug Introduction Video
+# Socketbug Introduction Video
 
 ### [Watch our 3 Minute Teaser Video](http://www.vimeo.com/socketbug/teaser)
 
@@ -12,7 +12,7 @@
 
 We'll show you the good stuff before you do any work :)
 
-#Socketbug Requirements
+# Socketbug Requirements
 
  * [**Node.js** ( v0.4+ )](http://nodejs.org/ "Check out Node.js")
 
@@ -24,13 +24,13 @@ We'll show you the good stuff before you do any work :)
 
 But not to worry, our Installation Instructions will get you setup with the required libraries.  And our video should help most through any terminal issues ;)
 
-#Socketbug - What is it?
+# Socketbug - What is it?
 
 The technology behind Mobile Web Applications has been growing at a tremendous rate.  Mobile Application Developers, while able to produce amazing applications, are limited by the native browsers own limited functionality. Basic features available on desktop browsers are completely absent from mobile browsers. The ability to view source code, debug javascript, or even execute a javascript command from a console are all tools developers have come to expect while developing websites.  So why are these features lacking for mobile web application developers?
 
 This is where Socketbug fills the gap! Socketbug is a Remote Debugging Utility built using [Socket.IO](http://socket.io "Socket.IO"). This means you can now use modern browsers ( both mobile and desktop ) to work together to allow you to remotely debug you mobile web applications.
 
-#Debugging your Mobile Applications with Socketbug
+# Debugging your Mobile Applications with Socketbug
 
 Socketbug is built on top of [Node.js](http://nodejs.org/ "Check out Node.js") using [Socket.IO](http://socket.io/ "Check out Node.js") (currently v0.7) as the main backend for communication. Socket.IO automatically determines what communication transport to use and enables your mobile application to send/receive messages from other connected devices.
 
